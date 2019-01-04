@@ -969,21 +969,15 @@ h3 {
 }
 /**
  * ===============================
- *  Map and Contant Style
+ *  Map and Contact Style
  * ===============================
  */
 #map_contact {
   position: relative;
   z-index: 1;
-  padding: 100px 0;
+  padding: 20px 0;
 }
-#map_contact #map-btn-tab {
-  position: relative;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
+
 .contact-maps-row {
   overflow: hidden;
 }
@@ -1750,7 +1744,7 @@ footer .footer-body .copyright p .fa {
   top: 2px;
   margin-right: 12px;
   margin-left: -30px;
-  content: "\e116";
+  content: "";
   font-size: 17px;
   font-family: "icomoon";
   opacity: 1;
