@@ -1452,10 +1452,7 @@ h3 {
   border: 1px solid #fff;
   background-color: rgba(48, 133, 163, 0.72);
 }
-.zoom-gallery a:hover img {
-  webkit-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2);
-}
+
 .zoom-gallery a:after,
 .zoom-gallery a:before {
   position: absolute;
@@ -1488,18 +1485,7 @@ h3 {
   height: 100%;
   content: '';
 }
-.zoom-gallery a:hover:after,
-.zoom-gallery a:hover:before {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-.zoom-gallery a:hover:before {
-  opacity: 1;
-  webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
-  -webkit-transition-duration: 0.35s;
-  transition-duration: 0.35s;
-}
+
 /**
  * ===============================
  * Hover Effect Style
